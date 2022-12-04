@@ -1,0 +1,124 @@
+body {
+  font-family: 'Raleway', 'Roboto', sans-serif;
+  background: #f5f5f5;
+}
+ul,
+li {
+  list-style: none;
+}
+a,
+ul,
+li {
+  text-decoration: none;
+}
+/* шапка сторінки*/
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 33px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.menu-link {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.phone-namber {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 5px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.phone-namber:hover,
+.phone-namber:focus {
+  background-color: #4d5ae5;
+  color: #434455;
+}
+
+.mail {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 5px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.mail:hover,
+.mail:focus {
+  background-color: #4d5ae5;
+  color: #434455;
+}
+/* секція герой*/
+.hero-title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1, 07px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.modal-bth {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1, 5px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+}
+.modal-bth:hover,
+.modal-bth:focus {
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+/*контент сторінки*/
+.title-list {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1, 2px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.content-paragraph {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.footer-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5px;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
