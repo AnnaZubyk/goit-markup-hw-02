@@ -7,8 +7,8 @@
   --color-footer: #e7e9fc;
 }
 body {
-  background-color: #ffffff;
-  color: #434455;
+  background-color: var(--color-light);
+  color: var(--color-text);
   font-family: 'Roboto', sans-serif;
 }
 
@@ -115,6 +115,10 @@ body {
   color: var(--color-light);
   background-color: var(--color-bth);
 }
+.modal {
+  background-color: var(--color-bth);
+  color: var(--color-light);
+}
 .menu-button {
   list-style: none;
 }
@@ -123,7 +127,7 @@ body {
 }
 .menu-item {
   background: var(--color-light);
-  border: 0.5px solid #f4f4fd;
+  border: 0.5px solid var(--bth-backround);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .visually-hidden {
