@@ -35,7 +35,6 @@ body {
 .logo {
   text-decoration-line: none;
 }
-
 .menu-link {
   font-weight: 600;
   font-size: 16px;
@@ -96,6 +95,7 @@ body {
   line-height: 1.18;
   letter-spacing: 0.04em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   color: var(--color-light);
   background-color: var(--color-bth);
   cursor: pointer;
